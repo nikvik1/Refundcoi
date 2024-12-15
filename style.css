@@ -1,0 +1,76 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* General Reset */\
+* \{\
+    margin: 0;\
+    padding: 0;\
+    box-sizing: border-box;\
+\}\
+\
+/* Body Style */\
+body \{\
+    background: #3b0a47; /* Dark Purple */\
+    color: #fff;\
+    font-family: 'Arial', sans-serif;\
+    height: 100vh;\
+    display: flex;\
+    justify-content: center;\
+    align-items: center;\
+    text-align: center;\
+\}\
+\
+/* Container */\
+.container \{\
+    background: rgba(51, 0, 61, 0.9); /* Slightly darker purple overlay */\
+    padding: 2rem;\
+    border-radius: 10px;\
+    width: 90%;\
+    max-width: 500px;\
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);\
+\}\
+\
+/* Heading */\
+h1 \{\
+    font-size: 2.5rem;\
+    font-weight: bold;\
+    color: #d4af37; /* Gold */\
+    margin-bottom: 1rem;\
+\}\
+\
+/* Emoji */\
+.emoji \{\
+    font-size: 2rem;\
+    margin-bottom: 1rem;\
+\}\
+\
+/* Subtitle for Wallet Address */\
+.subtitle \{\
+    font-size: 1rem;\
+    margin-bottom: 1.5rem;\
+    color: #fff;\
+\}\
+\
+.ca-address \{\
+    font-family: 'Courier New', Courier, monospace;\
+    color: #d4af37; /* Gold for Wallet Address */\
+\}\
+\
+/* Social Links */\
+.links a \{\
+    display: inline-block;\
+    margin: 0.5rem;\
+    text-decoration: none;\
+    color: #d4af37; /* Gold */\
+    font-size: 1.2rem;\
+    transition: color 0.3s ease;\
+\}\
+\
+.links a:hover \{\
+    color: #f39c12; /* Lighter gold on hover */\
+\}\
+}
